@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html>
-
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="character.js"></script>
 <head>
-  <title>Shape Tracker</title>
+  <title>RPG</title>
 </head>
 
 <body>
+  <div class="container">
+    <h2>Characters battle</h2>
+    <div class="row">
+        <div class="col">
+          <label for="character1">Character1</label>
+          <button type="button" class="btn-success" id="${characterNum}-hit">Hit</button>
+          <button type="button" class="btn-success" id="${characterNum}-getHealth">Get Health</button>
+          <button type="button" class="btn-success" id="${characterNum}-getEvenMoreHealth">Super Health</button>
 
+          <h3>Character 1 Values</h3>
+          <h3>Current points:<div id="${characterNum}-character1Points">100</div></h3>
+    
+        
+        <div class="col">
+          <label for="character2">Character2</label>
+          <button type="button" class="btn-success" id="${characterNum}-hit">Hit</button>
+          <button type="button" class="btn-success" id="${characterNum}-getHealth">Get Health</button>
+          <button type="button" class="btn-success" id="${characterNum}-getEvenMoreHealth">Super Health</button>
 
+          <h3>Character 2 Values</h3>
+          <h3>Current points:<div id="${characterNum}-character2Points">100</div></h3>
 
-  <!-- template of img <img src="assets/images/stock-puppy-photo.jpg" alt="such a pup!"> -->
+        </div>
+        
+    </div>
+  </div>
+
 </body>
 
 </html>
