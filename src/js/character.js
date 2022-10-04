@@ -32,21 +32,21 @@ export const storeListState = () => {
 };
 
 export const hitPlayer1 = changeCharacterState("rock_player1")(-2);
-export const hit2Player1 = changeCharacterState("bow_player1")(-5);
-export const hit3Player1 = changeCharacterState("sword_player1")(-7);
+export const hit2Player1 = changeCharacterState("rock_player1")(-5);
+export const hit3Player1 = changeCharacterState("rock_player1")(-7);
 
 export const getHealthPlayer1 = changeCharacterState("rock_player1")(3);
-export const getMoreHealthPlayer1 = changeCharacterState("eat_food_player1")(7);
+export const getMoreHealthPlayer1 = changeCharacterState("rock_player1")(7);
 export const getEvenMoreHealthPlayer1 = changeCharacterState(
   "super_health_player1"
 )(15);
 
 export const hitPlayer2 = changeCharacterState("rock_player2")(-2);
-export const hit2Player2 = changeCharacterState("bow_player2")(-5);
-export const hit3Player2 = changeCharacterState("sword_player2")(-7);
+export const hit2Player2 = changeCharacterState("rock_player2")(-5);
+export const hit3Player2 = changeCharacterState("rock_player2")(-7);
 
 export const getHealthPlayer2 = changeCharacterState("rock_player2")(3);
-export const getMoreHealthPlayer2 = changeCharacterState("eat_food_player2")(7);
+export const getMoreHealthPlayer2 = changeCharacterState("rock_player2")(7);
 export const getEvenMoreHealthPlayer2 = changeCharacterState(
   "super_health_player2"
 )(15);
