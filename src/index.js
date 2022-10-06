@@ -16,8 +16,8 @@ $(document).ready(function () {
   //"rock1" || "bow1" || "sword1"
 
   $("#character-1-hit").click(function () {
-    const valPlayer1 = $("#weapons1").val();
-    const state = stateControl(valPlayer1); //hitPlayer2
+    const valPlayer1 = $("#weapons1").val(); //->hitPlayer1 || hit2Player1 || hit3Player1
+    const state = stateControl(valPlayer1);
     $("#character-2-characterPoints").text(`${state.rock_player2}`);
   });
 
