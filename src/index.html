@@ -14,7 +14,7 @@
     <h2>Characters battle</h2>
     <div class="row">
         <div class="col">
-          <label for="character1"><h2>Character1</h2></label>
+          <label for="character1"><h2>Warrior 1</h2></label>
           <img src="./assets/img/warior1.jpg" alt="" width="100%" height="70%">
 
           <label for="weapons1">Weapon</label>
@@ -23,6 +23,9 @@
             <option value="hit2Player2">Bow</option>
             <option value="hit3Player2">Sword</option>
           </select>
+          <button type="button" class="btn-success" id="rock-character1" hidden>rock</button>
+          <button type="button" class="btn-success" id="bow-character1" hidden>bow</button>
+          <button type="button" class="btn-success" id="sword-character1" hidden>sword</button>
           <button type="button" class="btn-success" id="character-1-hit">Hit</button>
           <button type="button" class="btn-success" id="character-1-getHealth">Get Health</button>
           <button type="button" class="btn-success" id="character-1-getEvenMoreHealth">Super Health</button>
@@ -32,16 +35,19 @@
         </div>
         
         <div class="col">
-          <label for="character2"><h2>Character2</h2></label>
+          <label for="character2"><h2>Warrior 2</h2></label>
           <img src="./assets/img/warior2.jpg" alt="" width="100%" height="70%">
 
           <label for="weapons2">Weapon</label>
           <select id="weapons2">
-            <option value="rock2">Rock</option>
-            <option value="bow2">Bow</option>
-            <option value="sword2">Sword</option>
+            <option value="hitPlayer1">Rock</option>
+              <option value="hit2Player1">Bow</option>
+              <option value="hit3Player1">Sword</option>
           </select>
-          <button type="button" class="btn-success" id="character-2-hit">Hit with rock</button>
+          <button type="button" class="btn-success" id="rock-character2" hidden>rock</button>
+          <button type="button" class="btn-success" id="bow-character2" hidden>bow</button>
+          <button type="button" class="btn-success" id="sword-character2" hidden>sword</button>
+          <button type="button" class="btn-success" id="character-2-hit">Hit</button>
           <button type="button" class="btn-success" id="character-2-getHealth">Get Health</button>
           <button type="button" class="btn-success" id="character-2-getEvenMoreHealth">Super Health</button>
 

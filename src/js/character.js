@@ -31,6 +31,8 @@ export const storeListState = () => {
   };
 };
 
+export const val = "";
+
 export const hitPlayer1 = changeCharacterState("rock_player1")(-2);
 export const hit2Player1 = changeCharacterState("rock_player1")(-5);
 export const hit3Player1 = changeCharacterState("rock_player1")(-7);
